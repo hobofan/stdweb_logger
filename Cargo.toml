@@ -1,0 +1,8 @@
+[package]
+name = "hobofan_stdweb_logger"
+version = "0.1.0"
+authors = ["Maximilian Goisser <goisser94@gmail.com>"]
+
+[dependencies]
+log = { version = "0.4.1", features = ["std"] }
+stdweb = "0.3.0"
