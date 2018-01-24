@@ -1,8 +1,11 @@
-## Crude logger implementation for the `log` crate for use with stdweb - No long-term maintenance intended!
+## Crude logger implementation for the [log][crate_log] crate for use with [stdweb][crate_stdweb] - No long-term maintenance intended!
 
 This crate allows you to use the usual log macros from the `log` crate (`info!`, `debug!`, etc.) when working on a project involving `stdweb`.
 
 The logger will then call the Javascript equivalent in the browser. E.g. `info!("Hello World")` => `console.info("Hello World");`.
+
+[crate_log]: https://crates.io/crates/log
+[crate_stdweb]: https://crates.io/crates/stdweb
 
 ## Caveats
 
