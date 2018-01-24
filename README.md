@@ -1,4 +1,4 @@
-# Crude logger implementation for the `log` crate for use with stdweb - No long-term maintenance intended!
+## Crude logger implementation for the `log` crate for use with stdweb - No long-term maintenance intended!
 
 ## License
 
