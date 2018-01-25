@@ -10,6 +10,7 @@ The logger will then call the Javascript equivalent in the browser. E.g. `info!(
 ## Caveats
 
 - Doesn't have module filtering (yet). If you turn the log level to `Debug` or `Trace` and your dependencies also log a lot, your console will be very full.
+- Both `Debug` and `Trace` map to `console.debug()` since there is no `Trace` equivalent.
 
 ## Installation
 
